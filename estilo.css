@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .buscador {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .buscador input {
+    height: 40px;
+    width: 40vw;
+  }
+
+  nav .logos{
+    width: 5vh;
+  }
+  
+  nav a {
+    padding: 1px;
+  }
+  
+  nav a:hover {
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 20px;
+    justify-content: center; 
+}
+
+.card-image{
+    width: 230px;
+
+}
